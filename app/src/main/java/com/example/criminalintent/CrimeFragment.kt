@@ -52,7 +52,7 @@ class CrimeFragment : Fragment() {
                 count: Int,
                 after: Int
             ) {
-                TODO("Not yet implemented")
+                // Intentionally left blank
             }
 
             override fun onTextChanged(
@@ -64,8 +64,8 @@ class CrimeFragment : Fragment() {
                 crime.title = sequence.toString()
             }
 
-            override fun afterTextChanged(p0: Editable?) {
-                TODO("Not yet implemented")
+            override fun afterTextChanged(sequence: Editable?) {
+                // Intentionally left blank
             }
         }
 
